@@ -25,7 +25,11 @@ public class Aluno {
 		return matricula;
 	}
 
-	public int[] get() {
+//	public int[] get() {
+//		return notas;  método mal especificado - o que retorna?
+//	}
+
+	public int[] getNotas() {
 		return notas;
 	}
 
