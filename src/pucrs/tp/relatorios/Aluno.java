@@ -24,8 +24,14 @@ public class Aluno {
 	public int getMatricula() {
 		return matricula;
 	}
+	
+//	public int[] get() {
+//		return notas;
+//	}
 
-	public int[] get() {
+	//Alterando nome de classe para ser intuitivo
+
+	public int[] getNotas() {
 		return notas;
 	}
 
