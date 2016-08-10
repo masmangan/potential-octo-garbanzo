@@ -12,11 +12,19 @@ public class EntradaAgenda {
 		enderecos = new ArrayList<Endereco>();
 	}
 
-	public void insEndereco(Endereco e) {
+//alterando nome de classe para ficar mais intuitivo
+
+	public void insereEndereco(Endereco e) {
 		enderecos.add(e);
 	}
+	
+//alterando nome de classe para ficar mais intuitivo
 
-	public String get() {
+//	public String get() {
+//		return (nome);
+//	}
+
+	public String getNome() {
 		return (nome);
 	}
 
